@@ -1,0 +1,19 @@
+{
+  "name": "strapi-provider-upload-supabase",
+  "version": "1.0.0",
+  "description": "Supabase storage provider for Strapi upload plugin",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "@supabase/supabase-js": "^1.35.6"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  }
+}
